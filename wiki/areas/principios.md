@@ -11,13 +11,11 @@
 - El loop evaluador es obligatorio — diseño nunca pasa directo a código.
 - DESIGN-SYSTEM.md necesita alma, no solo tokens de color.
 - Screenshots de referencia > descripciones textuales.
-- Si el evaluador da 8 a todo, recalibrarlo.
 
 ## Sobre agentes
 - 6 agentes es el sweet spot. Más = más coordinación, menos resultados.
-- 2 Opus (designer, design-evaluator) + 4 Sonnet (el resto) para ahorrar tokens.
 - El architect tiende a hacer cosas él mismo — vigilar siempre.
-- Separar generador de evaluador (artículo Anthropic harness design).
+- Ver [[agentes]] para distribución de modelos, loop GAN y criterios de evaluación.
 
 ## Sobre context engineering
 - Contexto = recurso finito con rendimientos decrecientes.

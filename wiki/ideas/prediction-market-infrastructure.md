@@ -58,3 +58,5 @@ El artículo menciona Claude como capa de desarrollo: describes la lógica de tr
 - **Composio** — capa de integración (250+ APIs con auth gestionado)
 - **Polymarket API** — mercados
 - **Telegram/Slack/Discord** — notificaciones
+
+Ver también: [[setup]] para stack de vibe coding disponible.

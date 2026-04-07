@@ -22,3 +22,5 @@ gh repo create nombre --private --source=. --push
 # 9. Arrancar
 claude --dangerously-skip-permissions --channels plugin:telegram@claude-plugins-official
 ```
+
+Ver también: [[flujo-de-trabajo]] para el pipeline de trabajo una vez arrancado, [[estructura]] para detalle de carpetas, [[setup]] para herramientas necesarias.

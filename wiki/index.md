@@ -17,3 +17,4 @@
 
 ## Referencias
 - [Artículos](referencias/articulos.md) — lecturas clave sobre context engineering y multi-agent
+- [Second Brain](referencias/second-brain.md) — patrón Karpathy/NickSpisak_ de knowledge base con IA (el mismo que usa esta wiki)

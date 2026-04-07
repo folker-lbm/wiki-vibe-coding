@@ -12,3 +12,5 @@
 → @developer corrige bugs
 → Deploy
 ```
+
+Ver también: [[agentes]] para detalle de cada rol, [[modo-nocturno]] para ejecución autónoma.
