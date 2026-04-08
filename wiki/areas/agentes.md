@@ -30,8 +30,8 @@ El @designer genera, el @design-evaluator puntúa. Si <8.5, vuelve al designer. 
 
 ### Rangos de puntuación
 
-- **<5.0: FAIL** — replanteamiento total
-- **5.0-8.4: ITERATE** — vuelve al designer con feedback específico
+- **<6.0: FAIL** — replanteamiento total
+- **6.0-8.4: ITERATE** — vuelve al designer con feedback específico
 - **≥8.5: PASS** — listo para aprobación del usuario
 
 **Threshold: 8.5/10** — el diseño debe ser destacable, no solo correcto.

@@ -11,7 +11,7 @@ Framework: Narrative → Proof → Momentum.
 Paquete "The Wake-Up Call" (€25K-45K): Culture Audit + Narrative Architecture, 6-8 semanas.
 
 ## IMPORTANTE: No hay método fijo
-No existe un framework de diagnóstico formalizado. La herramienta y la metodología se crean juntas. El @strategic-designer debe definir la metodología ANTES de que nadie diseñe pantallas.
+No existe un framework de diagnóstico formalizado. La herramienta y la metodología se crean juntas. El @designer debe definir la metodología ANTES de que nadie diseñe pantallas.
 
 ## Métodos de diagnóstico
 

@@ -3,7 +3,7 @@
 ```
 @architect coordina todo
 → @designer investiga + diseña flujos + produce HTML previews
-→ @design-evaluator puntúa (loop GAN hasta ≥7.0)
+→ @design-evaluator puntúa (loop GAN hasta ≥8.5)
 → Yo apruebo el diseño
 → @developer implementa
 → @reviewer revisa código + cuestiona decisiones

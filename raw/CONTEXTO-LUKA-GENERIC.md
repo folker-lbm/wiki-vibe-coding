@@ -91,8 +91,8 @@ Máximo 5 rondas. Basado en el artículo de Anthropic sobre harness design.
 | Functionality | 30% |
 
 **Threshold: 8.5/10** — el diseño debe ser destacable, no solo correcto.
-- <5.0: FAIL — replanteamiento total
-- 5.0-8.4: ITERATE — vuelve al designer con feedback
+- <6.0: FAIL — replanteamiento total
+- 6.0-8.4: ITERATE — vuelve al designer con feedback
 - ≥8.5: PASS — listo para aprobación del usuario
 
 ### 3 slash commands
