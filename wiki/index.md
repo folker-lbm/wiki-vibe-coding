@@ -6,6 +6,7 @@
 - [Estructura](areas/estructura.md) — carpetas reutilizables, globales y por proyecto
 - [Principios](areas/principios.md) — lecciones sobre CLAUDE.md, diseño, agentes, contexto, harness vs infrastructure
 - [Troubleshooting](areas/troubleshooting.md) — problemas conocidos y soluciones
+- [Wikis Personales](areas/wikis-personales.md) — segundo cerebro: 2 wikis activas, loop diario, Obsidian
 
 ## Workflows
 - [Proyecto nuevo](workflows/proyecto-nuevo.md) — pasos para arrancar un proyecto desde cero
@@ -20,6 +21,7 @@
 
 ## Ideas
 - [Prediction Market Infrastructure](ideas/prediction-market-infrastructure.md) — "sell shovels": herramientas para traders, errores comunes del bot
+- [Wiki Brain](ideas/wiki-brain.md) — app web (Next.js + Vercel) para acceder a las wikis sin terminal
 
 ## Referencias
 - [Artículos](referencias/articulos.md) — lecturas clave sobre context engineering y multi-agent

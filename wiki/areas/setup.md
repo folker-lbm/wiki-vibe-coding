@@ -7,10 +7,12 @@
 - Antigravity IDE (fork de VS Code con IA)
 
 ## Herramientas instaladas
-- Homebrew, Node.js, Git, GitHub CLI (`gh`), Bun
+- Homebrew, Node.js, Git, GitHub CLI (`gh`), Bun, NVM
 - Claude Code (terminal + Antigravity)
-- Gemini CLI, Codex CLI (disponibles para orquestar en el futuro)
+- Gemini CLI, Codex CLI
 - tmux (opcional, para ver agentes en paralelo)
+- Obsidian (visor de [[wikis-personales]])
+- Obsidian Web Clipper (extensión Chrome para clipear artículos a raw/)
 
 ## Configuración de Claude Code (~/.claude/settings.json)
 ```json
@@ -32,6 +34,13 @@
 - frontend-design (Anthropic oficial)
 - bencium-innovative-ux-designer
 - creative-director (20+ metodologías de diseño)
+
+### Wiki / Second Brain
+- second-brain (NicholasSpisak) — incluye 4 comandos:
+  - /second-brain — scaffolding de nueva wiki
+  - /second-brain-ingest — ingesta de fuentes
+  - /second-brain-query — consultas contra la wiki
+  - /second-brain-lint — health check mensual
 
 ### Otros
 - humanizer (eliminar tono IA de textos)

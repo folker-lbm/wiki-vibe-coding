@@ -46,3 +46,18 @@ Found 0 errors, 3 warnings, 3 info items. All fixed:
 - "$1MYear Prediction Market Business — Built With Claude bot 1.md" (duplicado del ya ingerido)
 - "Thread by @RoundtableSpace.md" (poco sustancial — solo /powerup y reacciones)
 - "Thread by @mrmagan_.md" (poco sustancial — micro-thread sobre second brain + NYT infographics)
+
+## 2026-04-08 ingest | Re-ingesta CONTEXTO-LUKA-GENERIC.md v2.0
+Re-procesado CONTEXTO-LUKA-GENERIC.md (versión 2.0, abril 2026). Creadas 2 páginas nuevas, actualizadas 6 existentes.
+
+**Páginas creadas:**
+- areas/wikis-personales.md — segundo cerebro: 2 wikis activas, loop diario, Obsidian, Web Clipper
+- ideas/wiki-brain.md — app web (wiki-chat) con Next.js + Vercel para acceder a wikis sin terminal
+
+**Páginas actualizadas:**
+- areas/agentes.md — threshold 7.0→8.5, modelos corregidos (4 Opus + 2 Sonnet), rangos de puntuación añadidos
+- areas/setup.md — añadidos NVM, Obsidian, Web Clipper, skills de Second Brain
+- areas/estructura.md — añadida carpeta archivo-obsoleto y estructura de wikis personales
+- areas/principios.md — añadida sección "Sobre el segundo cerebro", threshold 8.5 explícito, 4 Opus + 2 Sonnet
+- areas/troubleshooting.md — añadido "Wiki con información incorrecta" + threshold 8.5 en diseño mediocre
+- referencias/second-brain.md — cross-refs a wikis-personales y wiki-brain

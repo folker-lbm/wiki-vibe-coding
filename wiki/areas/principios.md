@@ -8,12 +8,14 @@
 
 ## Sobre diseño
 - Mockups antes que código. Siempre.
+- **Threshold 8.5** — el diseño debe ser destacable, no solo correcto. Ver [[agentes]] para rangos.
 - El loop evaluador es obligatorio — diseño nunca pasa directo a código.
 - DESIGN-SYSTEM.md necesita alma, no solo tokens de color.
 - Screenshots de referencia > descripciones textuales.
 
 ## Sobre agentes
 - 6 agentes es el sweet spot. Más = más coordinación, menos resultados.
+- 4 Opus + 2 Sonnet.
 - El architect tiende a hacer cosas él mismo — vigilar siempre.
 - Ver [[agentes]] para distribución de modelos, loop GAN y criterios de evaluación.
 
@@ -31,6 +33,12 @@
 - "Teams that understand distributed systems build agents that work. Teams that stop at the harness build demos."
 - CLAUDE.md tiene 4 niveles: /etc (enterprise) → proyecto → usuario → local. Es RBAC para comportamiento de agentes.
 - Error recovery como estado first-class en el loop, no un try-catch exterior. Cada tipo de error tiene recovery path específico.
+
+## Sobre el segundo cerebro
+- Una wiki por dominio. Ver [[wikis-personales]].
+- Web Clipper es el hábito clave — un clic cuando lees algo.
+- Lint mensual obligatorio.
+- Corregir siempre en raw/, nunca en la wiki directamente.
 
 ## Sobre el proceso
 - Describe problemas, no soluciones — los agentes proponen.

@@ -85,4 +85,4 @@ Esta wiki (wiki-vibe-coding) implementa este patrón: `raw/` → agente IA → `
 - **Query** via `/second-brain-query` — preguntas contra la wiki
 - **Lint** via `/second-brain-lint` — health check automatizado
 
-Ver también: [[estructura]], [[principios]], [[flujo-de-trabajo]]
+Ver también: [[estructura]], [[principios]], [[flujo-de-trabajo]], [[wikis-personales]], [[wiki-brain]]
