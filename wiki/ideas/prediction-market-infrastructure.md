@@ -59,4 +59,26 @@ El artículo menciona Claude como capa de desarrollo: describes la lógica de tr
 - **Polymarket API** — mercados
 - **Telegram/Slack/Discord** — notificaciones
 
+## Errores comunes al construir el bot
+
+Follow-up del artículo original con 12M views ([Source: polymarket-bot-mistakes.md]):
+
+- **Errores 1-3**: impiden que el bot funcione (credenciales, API, environment)
+- **Errores 4-6**: producen resultados incorrectos (datos stale, edge mal calculado)
+- **Errores 7-9**: destruyen la cuenta gradualmente (sin risk management)
+
+### Thresholds antes de ir live
+- 200+ trades completados en paper mode
+- Win rate >75% en paper
+- 7 días consecutivos sin crashes
+- Desplegado en VPS (no laptop)
+
+### Setup crítico
+- Credenciales en `.env`, nunca hardcodeadas. `.gitignore` antes de todo
+- Alchemy RPC (no public RPC) para transacciones en Polygon
+- Paper mode por defecto con 3 flags para live: `--live --confirm --i-understand-risks`
+- Risk management no-negociable: halt diario (-20%), halt permanente (60% ATH), pausa tras 5 pérdidas consecutivas
+
+> "La diferencia entre bots que ganan dinero y los que no, no es la estrategia — es la calidad de ejecución." [Source: polymarket-bot-mistakes.md]
+
 Ver también: [[setup]] para stack de vibe coding disponible.

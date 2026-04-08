@@ -44,3 +44,21 @@
 - Superpowers (obra) — TDD, systematic-debugging, subagent-driven-development
 - code-simplifier (Anthropic)
 - Telegram channel (notificaciones al móvil)
+- Caveman (JuliusBrussee) — reduce output tokens 65-87%. Ver [[optimizacion-tokens]]
+
+## Channels
+
+```bash
+claude --channels plugin:telegram@claude-plugins-official
+```
+
+Claude accesible vía Telegram/Discord/iMessage dentro de la sesión activa. Eventos llegan con contexto completo. Ver [[claude-code-features-avanzadas]].
+
+## Hooks configurables
+
+Además de PreToolUse/PostToolUse, hay hooks avanzados poco conocidos:
+- **TaskCompleted** — vetar que Claude marque tarea como completada (exit 2)
+- **CwdChanged** — auto-reload env (direnv) en monorepo
+- **FileChanged** — reaccionar a cambios en archivos específicos (ej: security audit en package-lock.json)
+
+Ver [[claude-code-features-avanzadas]] para detalles y ejemplos.

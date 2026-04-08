@@ -28,6 +28,22 @@ El @designer genera, el @design-evaluator puntúa. Si <7.0, vuelve al designer. 
 
 **Nota:** Si el evaluador da 8 a todo, recalibrarlo.
 
+## Agent Teams (experimental)
+
+Con `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` (ya configurado en [[setup]]), se pueden crear equipos donde los agentes **hablan entre sí**, no solo con el usuario. Comparten task list y se envían mensajes directamente.
+
+```
+Create a team: one on UX, one on architecture, one playing devil's advocate on my new auth flow
+```
+
+Se puede requerir que cada teammate presente plan para aprobación antes de escribir código. [Source: 10-hidden-claude-code-features.md]
+
+### Sub-agent architecture (internals)
+
+Cada sub-agent tiene contexto aislado y no puede mutar el estado del parent. Los que modifican código obtienen su propio **git worktree** (branch `worktree-<slug>`) con symlink de `node_modules`. 3 backends: in-process, tmux pane, remote. Coordinación via file-based locking. [Source: claude-code-harness-architecture.md]
+
+Ver también: [[claude-code-arquitectura]], [[claude-code-features-avanzadas]]
+
 ## 3 slash commands
 
 Guardados en `~/Desktop/Vibe Coding/commands/`.

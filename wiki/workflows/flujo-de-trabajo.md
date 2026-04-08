@@ -13,4 +13,4 @@
 → Deploy
 ```
 
-Ver también: [[agentes]] para detalle de cada rol, [[modo-nocturno]] para ejecución autónoma.
+Ver también: [[agentes]] para detalle de cada rol, [[modo-nocturno]] para ejecución autónoma, [[proyecto-nuevo]] para setup inicial.

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4c027a594409a688",
+        "id": "bcf5fb14a0ec432c",
         "type": "tabs",
         "children": [
           {
-            "id": "fdea3241771206cd",
+            "id": "a7395d16905dcf8d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -176,8 +176,30 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "fdea3241771206cd",
+  "active": "a7395d16905dcf8d",
   "lastOpenFiles": [
+    "Agent Teams.md",
+    "wiki/concepts/claude-cowork.md",
+    "wiki/concepts/optimizacion-tokens.md",
+    "wiki/concepts/claude-code-features-avanzadas.md",
+    "wiki/concepts/claude-code-arquitectura.md",
+    "wiki/sources/polymarket-bot-mistakes.md",
+    "wiki/sources/claude-features-nobody-talks-about.md",
+    "wiki/sources/chief-of-seo-claude-cowork.md",
+    "wiki/sources/karpathy-second-brain-guide.md",
+    "wiki/sources/claude-budget-optimization.md",
+    "wiki/sources/claude-code-harness-architecture.md",
+    "wiki/sources/10-hidden-claude-code-features.md",
+    "wiki/entities",
+    "wiki/concepts",
+    "raw/$1MYear Prediction Market Business — Built With Claude bot 1.md",
+    "raw/The Claude Features Nobody Talks About (But Everyone Is Paying For).md",
+    "raw/Thread by @RoundtableSpace.md",
+    "raw/How I built harness for my agent using Claude Code leaks.md",
+    "raw/Why your Claude bot doesn't work.md",
+    "raw/How I stopped burning 75% of my Claude budget and saved $500month\".md",
+    "raw/My Chief of SEO, Claude Cowork.md",
+    "raw/10 hidden Claude code features that 99.9% ignore.md",
     "raw/Thread by @mrmagan_.md",
     "raw/karpathy's second brain how to build it.md",
     "raw/Part 2 Your Second Brain System (Done For You).md",
@@ -186,9 +208,6 @@
     "wiki/referencias/second-brain.md",
     "raw/How to Build Your Second Brain.md",
     "wiki/ideas/prediction-market-infrastructure.md",
-    "raw/$1MYear Prediction Market Business — Built With Claude bot.md",
-    "Clippings/$1MYear Prediction Market Business — Built With Claude bot.md",
-    "Clippings",
-    "CLAUDE.md"
+    "Clippings"
   ]
 }

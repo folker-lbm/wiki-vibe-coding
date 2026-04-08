@@ -16,6 +16,10 @@
 ## Telegram se desconecta
 Es experimental. Reiniciar con `--channels`. Ver [[setup]] para config completa.
 
+## Tokens se agotan demasiado rápido
+**Causa:** output verboso, contexto acumulado, window mal alineada.
+**Solución:** ver [[optimizacion-tokens|Optimización de Tokens]] — caveman skill, editar vs responder, window anchoring, batching.
+
 ## Auth de Claude Code expira
 Escribir `/login` dentro de Claude Code.
 
